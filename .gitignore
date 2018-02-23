@@ -4,5 +4,6 @@
 *.idea
 /.idea/workspace.xml
 /.idea/libraries
+/study-Protobuf/target/*
 
 
