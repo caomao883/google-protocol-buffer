@@ -1,4 +1,6 @@
 # google-protocol-buffer
+参考文献
+http://blog.csdn.net/xiao__gui/article/details/36643949
 
 protoc.exe下载地址
 https://github.com/google/protobuf/releases/tag/
