@@ -1,4 +1,8 @@
 # google-protocol-buffer
 
-protoc-3.5.1-win32.exe下载地址
-https://github.com/caomao883/google-protocol-buffer/blob/master/protoc-3.5.1-win32.zip
+protoc.exe下载地址
+https://github.com/google/protobuf/releases/tag/
+protoc-3.5.0-win32.exe下载地址
+https://github.com/google/protobuf/releases/tag/v3.5.0
+protoc-2.6.1-win32.exe下载地址
+https://github.com/google/protobuf/releases/tag/v2.6.1
