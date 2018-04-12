@@ -36,7 +36,7 @@ public class Main {
         System.out.println("email:" + xxg2.getEmail());
         System.out.println("friend:");
         List<String> friends = xxg2.getFriendsList();
-        for(String friend : friends) {
+        for (String friend : friends) {
             System.out.println(friend);
         }
     }

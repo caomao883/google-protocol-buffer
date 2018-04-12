@@ -19,7 +19,7 @@ protoc.exe是protobuf代码生成工具。
 [plain] view plain copy
 message Person {
 
-    // ID（必需）
+    // ID（必需）,build对象是required字段必须写上，否则报错，就想填表的必填项一样，optional是可选填的
     required int32 id = 1;
 
     // 姓名（必需）
@@ -35,10 +35,13 @@ message Person {
 上面的1、2、3、4是unique numbered tag，是一个唯一标识。
 上面的例子中定义了一个非常简单的数据结构，当然还可以定义更复杂的结构，这里不再讨论，具体可以看官方文档。
 
+#具体也可以参考study-Protobuf/generate
 第二步：protoc.exe生成Java代码
 
 使用文件protoc.exe，cmd命令行运行：
 
 protoc.exe --java_out=E:\java PersonMsg.proto
+
+#protoc-3.5.1-win32 --java_out=. PersonMsg.proto
 
 输入文件是PersonMsg.proto，也就是定义数据结构的文件；输出文件夹是E:\java，将java文件生成在E:\java中。运行命令成功后会生成PersonMsg.java：
